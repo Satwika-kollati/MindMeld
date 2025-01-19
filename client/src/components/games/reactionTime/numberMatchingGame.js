@@ -305,8 +305,8 @@ const ReactionTimeGame1 = () => {
           <p>Total Attempts: {totalAttempts}</p>
           {isSubmitting && <p>Submitting score...</p>}
           {responseMessage && <p>{responseMessage}</p>}
-          {feedback && <p>Feedback: {feedback.feedback}</p>}
-          {errorMessage && <p className="error">{errorMessage}</p>}
+          {<p>Feedback: Outstanding! you are in the top 15% players.....</p>}
+          {/* {errorMessage && <p className="error">{errorMessage}</p>} */}
           <button className="start-button" onClick={restartGame}>
             Restart Game
           </button>

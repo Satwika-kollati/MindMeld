@@ -433,7 +433,117 @@ useEffect(() => {
         </div>
       </section>
 
-      
+  <section id="profile_settings" className="p-6 py-20">
+    <div className="mb-8" id="el-332a4efn">
+      <h2 className="text-2xl font-bold mb-2" id="el-hu8gop5z">Profile Settings</h2>
+      <p className="text-gray-600" id="el-4ftzx9k2">Manage your account and preferences</p>
+    </div>
+
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6" id="el-aa1iqdn9">
+      <div className="lg:col-span-2 space-y-6" id="el-19usi3fx">
+        <div className="bg-white border border-neutral-200/20 rounded-lg p-6" id="el-88k4zgkn">
+          <h3 className="font-semibold mb-6" id="el-a1ae73m1">Personal Information</h3>
+          <div className="space-y-4" id="el-aeblebss">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4" id="el-cjmr8clf">
+              <div id="el-m1mxzp4t">
+                <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1" id="el-23e4k87e">First Name</label>
+                <input
+                  type="text"
+                  id="firstName"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  defaultValue="Alex"
+                />
+              </div>
+              <div id="el-nm69qxuh">
+                <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-1" id="el-6cbw05b3">Last Name</label>
+                <input
+                  type="text"
+                  id="lastName"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  defaultValue="Chen"
+                />
+              </div>
+            </div>
+            <div id="el-u2qijylt">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1" id="el-zgg7ckyy">Email</label>
+              <input
+                type="email"
+                id="email"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                defaultValue="alex@example.com"
+              />
+            </div>
+            <div id="el-pbx79afv">
+              <label htmlFor="occupation" className="block text-sm font-medium text-gray-700 mb-1" id="el-a38nj3c7">Occupation</label>
+              <input
+                type="text"
+                id="occupation"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                defaultValue="Software Developer"
+              />
+            </div>
+            <div id="el-m5vnaga6">
+              <label htmlFor="age" className="block text-sm font-medium text-gray-700 mb-1" id="el-mxt0hnsn">Age</label>
+              <input
+                type="number"
+                id="age"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                defaultValue="28"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border border-neutral-200/20 rounded-lg p-6" id="el-ivqg5knq">
+          <h3 className="font-semibold mb-6" id="el-h37oa8o9">Cognitive Goals</h3>
+          <div className="space-y-4" id="el-i19q5mjc">
+            <div id="el-zrp7vh5u">
+              <label htmlFor="primaryFocus" className="block text-sm font-medium text-gray-700 mb-1" id="el-vimf17ng">Primary Focus Area</label>
+              <select
+                id="primaryFocus"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              >
+                <option id="el-opkd8gar">Memory Enhancement</option>
+                <option id="el-m3uthplp">Focus Improvement</option>
+                <option id="el-lavbvvwp">Problem Solving</option>
+                <option id="el-4n809msg">Reaction Time</option>
+              </select>
+            </div>
+            <div id="el-wja9yq6l">
+              <label htmlFor="dailyPracticeGoal" className="block text-sm font-medium text-gray-700 mb-1" id="el-g4qem6ai">Daily Practice Goal</label>
+              <select
+                id="dailyPracticeGoal"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              >
+                <option id="el-ijbbvdxf">15 minutes</option>
+                <option id="el-z067djra">30 minutes</option>
+                <option id="el-pj6yklxg">45 minutes</option>
+                <option id="el-2s5wopza">60 minutes</option>
+              </select>
+            </div>
+            <div id="el-htg40m3p">
+              <label htmlFor="weeklyTarget" className="block text-sm font-medium text-gray-700 mb-1" id="el-e7ftp3l6">Weekly Target</label>
+              <select
+                id="weeklyTarget"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              >
+                <option id="el-kx4ep5ol">3 days/week</option>
+                <option id="el-2uagyz77">5 days/week</option>
+                <option id="el-syrdhqjb">Every day</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="space-y-6" id="el-ietbq52b">
+        {/* Preferences Section */}
+        {/* <div className="bg-white border border-neutral-200/20 rounded-lg p-6" id="el-38ywna14"> */}
+          {/* Content */}
+        {/* </div> */}
+      {/* </div> */} 
+    </div>
+  </section>
        
     </div>
 
